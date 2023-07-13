@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="nav">
+            <span class="nav__logo">Bookshop</span>
+            <ul class="menu__list">
+                <li class="menu__list__books menu__list__books_active">Books</li>
+                <li class="menu__list__audiobooks">AudioBooks</li>
+                <li class="menu__list__gifts">Stationery & Gifts</li>
+                <li class="menu__list__blog">Blog</li>
+            </ul>
+            <button class="nav__log-in"></button>
+            <button class="nav__search"></button>
+            <button class="nav__cart"></button>
+        </nav>
+    </header>
+    <div class="slider">
+        <div class="slider__images"></div>
+        <div class="slider__dots"></div>
+    </div>
+    <main class="main">
+        <aside class="book-genre">
+            <ul class="genre__list">
+                <li class="genre__list__arch genre__list__arch-active"><a href="#!">Architecture</a></li>
+                <li class="genre__list__art-fashion"><a href="#!">Fashion</a></li>
+                <li class="genre__list__bio"><a href="#!">Biography</a></li>
+                <li class="genre__list__business"><a href="#!">Business</a></li>
+                <!-- <li class="genre__list__childrens"><a href="#!">Childrens</a></li> -->
+                <li class="genre__list__education"><a href="#!">Education</a></li>
+                <li class="genre__list__poetry"><a href="#!">Poetry</a></li>
+                <li class="genre__list__fiction"><a href="#!">Fiction</a></li>
+                <li class="genre__list__food-drink"><a href="#!">Food & Drink</a></li>
+                <li class="genre__list__health"><a href="#!">Health</a></li>
+            </ul>
+        </aside>
+        <div class="books_load-more">
+            <div class="books">
+                <div class="books__book"></div>
+                <button class="load-more">Load More</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+
+</html>

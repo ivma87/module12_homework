@@ -1,0 +1,41 @@
+@import "variables";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+h2 {
+    margin-top: $header-margin;
+    background-color: aliceblue;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.card {
+    background-color: beige;
+    margin: 10px;
+}
+
+.books__book{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
